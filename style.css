@@ -89,6 +89,11 @@ body {
   align-self: center;
 }  
 
+ a:hover img {
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 /*Width of cards and containers*/
 @media (max-width: 1000px) {
 body.sm-full {
@@ -107,14 +112,13 @@ body.sm-full {
     flex-direction: column;
    }
 
+
 .CP {
     max-width: 150px;
     text-align: center;
     align-self: center;  
     }     
-   
-
-}
+  }
 
 @media (max-width: 768px) {
 .ThreeCardsBox {
