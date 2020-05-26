@@ -89,9 +89,14 @@ body {
   align-self: center;
 }  
 
- a:hover img {
+a:hover img {
     transform: scale(1.5);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+a:hover {
+  transform: scale(1.5);
+  color: white;
 }
 
 /*Width of cards and containers*/
