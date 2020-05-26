@@ -1,6 +1,3 @@
-1. Mondjuk Linkeket :hover-rel ha rámész akkor kifehérednének és feketék lennének a betűk
-
-2. Utolsó előtti sectionba mondjuk mehetnének képek ilyen http://blog.webshark.hu/2018/10/31/kepek-weboldalon/ van egynegyednél egyharmadnál 5 pasiról fénykép na itt is lehetne ilyen és ha rámész kinagyítja ha rákatt akkor kidobja kis ablakban :) 
 
 3. Hátteret átvariálni röbb látszódjon és lehet, hogy kicsit világosabb lila vagy sötétebb.
 
