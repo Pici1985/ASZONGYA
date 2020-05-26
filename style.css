@@ -41,7 +41,7 @@ body {
     text-align: center;
     font-family: 'Chelsea Market', cursive;
     margin: 0 200 0 200;
-	background-image: url("pics/forest.jpg");
+	  background-image: url("pics/forest.jpg");
 }
 
 
@@ -67,20 +67,53 @@ body {
 
 .ThreeCardsBox {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  }
+
+.flexcontainer {
+  display: flex; 
+  justify-content: space-around; 
 }
+
+.Jani {
+  max-height: 150px;
+  max-width: 150px;
+  margin: 10px 10px;
+	border-radius: 5%;
+  }
+
+.CP {
+  max-width: 150px;
+  max-height: 150px;
+  margin: 10px 10px;
+  text-align: center;
+  align-self: center;
+}  
 
 /*Width of cards and containers*/
 @media (max-width: 1000px) {
 body.sm-full {
-        margin: 0 0 0 0;
+     margin: 0 0 0 0;
     }
 
 .ThreeCardsBox {
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   }
+
+.flexcontainer {
+    max-width: 100%;
+    display: flex; 
+    flex-direction: column;
+   }
+
+.CP {
+    max-width: 150px;
+    text-align: center;
+    align-self: center;  
+    }     
+   
+
 }
 
 @media (max-width: 768px) {
@@ -89,6 +122,13 @@ body.sm-full {
     display: flex;
     flex-direction: column;
   }
+
+  .CP {
+    max-width: 150px;
+    text-align: center;
+    align-self: center;  
+    }  
+
 }
 
 
