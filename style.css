@@ -2,14 +2,13 @@
 /*Basic*/
 
 
-/*NavBar*/
+/*NavBar ide jöhet minden navBaros ötlet ez a szekciója*/
 
 .navbar{
-    background-color: black !important;
+    background-color: #444477 !important;                        /*  Tettem új BGcolort ehelyett:  background-color: #444477 black !important;*/
     color: white !important;
-    justify-content: flex-end;
+    justify-content:flex-end;
 }
-
 
 .navbar-brand {
     color: white !important;
@@ -27,42 +26,17 @@ navbar-toggler-icon {
     flex-grow: 0;
 }
 
-.ThreeCardsBox {
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  }
-
-.flexcontainer {
-    max-width: 100%;
-    display: flex; 
-    flex-direction: column;
-   }
-
-
-.CP {
-    max-width: 150px;
-    text-align: center;
-    align-self: center;  
-    }     
-  }
-
-.logo {
-  max-width: 60%;
+.nav-link {
+    margin: 0px 10px 0px 10px;                                      /*  Tettem kis margint, hogy gombok elférjenek ha hover van*/
 }
 
-  .CP {
-    max-width: 150px;
-    text-align: center;
-    align-self: center;  
-    }  
-
-}
 
 /*CArds*/
 .card {
-    background-color: #82216e !important;
+    background-color: #444477 !important;                           /*  Tettem új BGcolort ehelyett:  background-color: #82216e !important;*/
 }
+
+
 
 /* Basic items */
 body {
@@ -73,6 +47,7 @@ body {
     margin: 0 200 0 200;
 	  background-image: url("pics/forest.jpg");
 }
+
 
 .facebook {
 	height: 50px;
@@ -129,20 +104,48 @@ a:hover {
 }
 
 /*Width of cards and containers*/
+@media (max-width: 1000px) {
+body.sm-full {
+     margin: 0 0 0 0;
+    }
+
+.ThreeCardsBox {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  }
+
+.flexcontainer {
+    max-width: 100%;
+    display: flex; 
+    flex-direction: column;
+   }
+
+
+.CP {
+    max-width: 150px;
+    text-align: center;
+    align-self: center;  
+    }     
+  }
+
 @media (max-width: 768px) {
 .ThreeCardsBox {
     width: 100%;
     display: flex;
     flex-direction: column;
   }
-    
-  }
-    
 
-@media (max-width: 1000px) {
-body.sm-full {
-     margin: 0 0 0 0;
-    }
+  .CP {
+    max-width: 150px;
+    text-align: center;
+    align-self: center;  
+    }  
+
+}
+
+
+
 
 
 
