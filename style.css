@@ -125,6 +125,10 @@ body.sm-full {
     }     
   }
 
+.logo {
+  max-width: 60%;
+}
+
 @media (max-width: 768px) {
 .ThreeCardsBox {
     width: 100%;
