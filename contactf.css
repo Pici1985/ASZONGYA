@@ -1,0 +1,73 @@
+/* css for contct page ONLY */
+
+body {
+    color: white;
+    background-color: black !important;
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+    margin: 0px 200px 0px 200px;
+    background-image: url("pics/forest.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#deresc {                                                                   /*  Tettem új BGcolort ehelyett: !important;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black !important;
+    opacity: 0.9;
+}
+
+.card {
+    background-color: #444477 !important;                           /*  Tettem új BGcolort ehelyett:  background-color: #82216e !important;*/
+    opacity: 0.9;
+}
+
+.deres {                                                            /* Nemtudom milyen lesz  csak ideraktam nézzétek meg */
+    padding: 20px;
+    margin: 0px 20px 0px 20px;
+    width: 50%;
+    height: 20%;
+}
+
+.navbar {
+    background-color: black !important;                                 /*  Tettem új BGcolort ehelyett:  background-color: #444477 black !important;*/
+    color: white !important;
+    justify-content: flex-end;
+    opacity: 0.9;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+    color: white;
+}
+
+navbar-toggler-icon {
+    color: white !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.nav-link {
+    margin: 0px 10px 0px 10px;                               /*  Tettem kis margint, hogy gombok elférjenek ha hover van*/
+}
+
+a:hover img {
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+a:hover {
+    transform: scale(1.5);
+    color: white;
+}
