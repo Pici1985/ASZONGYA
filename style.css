@@ -1,20 +1,35 @@
+                                                                                    /*Igyekszem rendezni mindent csoportosítva !!!!!!!!!!*/
 /*Bootstrap modification*/
 /*Basic*/
-
+body {
+    color: white;
+    background-color: black !important;
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+    margin: 0px 200px 0px 200px;
+    background-image: url("pics/forest.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 /*NavBar ide jöhet minden navBaros ötlet ez a szekciója*/
 
-.navbar{
-    background-color: #444477 !important;                        /*  Tettem új BGcolort ehelyett:  background-color: #444477 black !important;*/
+.navbar {
+    background-color: black !important;                                 /*  Tettem új BGcolort ehelyett:  background-color: #444477 black !important;*/
     color: white !important;
-    justify-content:flex-end;
+    justify-content: flex-end;
+    opacity: 0.9;
 }
 
 .navbar-brand {
     color: white !important;
 }
 
-.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
     color: white;
 }
 
@@ -27,71 +42,81 @@ navbar-toggler-icon {
 }
 
 .nav-link {
-    margin: 0px 10px 0px 10px;                                      /*  Tettem kis margint, hogy gombok elférjenek ha hover van*/
+    margin: 0px 10px 0px 10px;                               /*  Tettem kis margint, hogy gombok elférjenek ha hover van*/
 }
 
+
+
+.bio {
+    margin: 0px 70px 0px 70px;
+}
 
 /*CArds*/
 .card {
     background-color: #444477 !important;                           /*  Tettem új BGcolort ehelyett:  background-color: #82216e !important;*/
+    opacity: 0.9;
 }
 
+.deres {                                                            /* Nemtudom milyen lesz  csak ideraktam nézzétek meg */
+    padding: 20px;
+    margin: 0px 20px 0px 20px;
+    width: 50%;
+    height: 20%;
+}
+
+#deresc {                                                                   /*  Tettem új BGcolort ehelyett: !important;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black !important;
+    opacity: 0.9;
+}
 
 
 /* Basic items */
-body {
-    color: white;
-    background-color: black!important;
-    text-align: center;
-    font-family: 'Chelsea Market', cursive;
-    margin: 0 200 0 200;
-	  background-image: url("pics/forest.jpg");
-}
-
-
 .facebook {
-	height: 50px;
-	width: 50px;
-	border-radius:15px;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
 }
 
 .Instagram {
-	height: 50px;
-	width: 50px;
-	border-radius:15px;
-	
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+
 }
 
 .youtube {
-	height: 50px;
-	width: 50px;
-	border-radius:15px;
-	
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+
 }
 
 .ThreeCardsBox {
-  display: flex;
-  }
+    display: flex;
+}
 
 .flexcontainer {
-  display: flex; 
-  justify-content: space-around; 
+    display: flex;
+    justify-content: space-around;
 }
 
 .pics {
-  max-height: 150px;
-  max-width: 150px;
-  margin: 10px 10px;
-	border-radius: 5%;
-  }
+    max-height: 150px;
+    max-width: 150px;
+    margin: 10px 10px;
+    border-radius: 5%;
+}
 
 .CP {
-  max-width: 150px;
-  max-height: 150px;
-  margin: 10px 10px;
-  text-align: center;
-  align-self: center;
-}  
+    max-width: 150px;
+    max-height: 150px;
+    margin: 10px 10px;
+    text-align: center;
+    align-self: center;
+}
 
 a:hover img {
     transform: scale(1.5);
@@ -99,48 +124,48 @@ a:hover img {
 }
 
 a:hover {
-  transform: scale(1.5);
-  color: white;
+    transform: scale(1.5);
+    color: white;
 }
 
 /*Width of cards and containers*/
 @media (max-width: 1000px) {
-body.sm-full {
-     margin: 0 0 0 0;
+    body.sm-full {
+        margin: 0 0 0 0;
     }
 
-.ThreeCardsBox {
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  }
+    .ThreeCardsBox {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 
-.flexcontainer {
-    max-width: 100%;
-    display: flex; 
-    flex-direction: column;
-   }
+    .flexcontainer {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 
 
-.CP {
-    max-width: 150px;
-    text-align: center;
-    align-self: center;  
-    }     
-  }
+    .CP {
+        max-width: 150px;
+        text-align: center;
+        align-self: center;
+    }
+}
 
 @media (max-width: 768px) {
-.ThreeCardsBox {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
+    .ThreeCardsBox {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 
-  .CP {
-    max-width: 150px;
-    text-align: center;
-    align-self: center;  
-    }  
+    .CP {
+        max-width: 150px;
+        text-align: center;
+        align-self: center;
+    }
 
 }
 
@@ -184,43 +209,44 @@ body.sm-full {
 
 /* Style all font awesome icons */
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }
 
 /* Add a hover effect if you want */
 .fa:hover {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 /* Set a specific color for each brand */
 
 /* Facebook */
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+    background: #3B5998;
+    color: white;
 }
+
 /* Style all font awesome icons */
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }
 
 /* Add a hover effect if you want */
 .fa:hover {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 /* Set a specific color for each brand */
 
 /* Facebook */
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+    background: #3B5998;
+    color: white;
 }
