@@ -13,6 +13,10 @@ body {
     background-size: cover;
 }
 
+ul {
+    list-style: none;
+}
+
 /*NavBar ide jöhet minden navBaros ötlet ez a szekciója*/
 
 .navbar {
@@ -74,6 +78,12 @@ navbar-toggler-icon {
 
 
 /* Basic items */
+.list-group-item.active {
+    background: none;
+    border: none;;
+}
+
+
 .facebook {
     height: 50px;
     width: 50px;
