@@ -61,6 +61,11 @@ navbar-toggler-icon {
     opacity: 0.9;
 }
 
+.oszlop {
+    flex-direction: row;
+}
+
+
 .deres {                                                            /* Nemtudom milyen lesz  csak ideraktam nézzétek meg */
     padding: 20px;
     margin: 0px 20px 0px 20px;
@@ -80,7 +85,7 @@ navbar-toggler-icon {
 /* Basic items */
 .list-group-item.active {
     background: none;
-    border: none;;
+    border: none;
 }
 
 
@@ -108,9 +113,12 @@ navbar-toggler-icon {
     display: flex;
 }
 
-.flexcontainer {
-    display: flex;
-    justify-content: space-around;
+/* .flexcontainer {
+  
+} */
+
+.border {
+    border: solid;
 }
 
 .pics {
