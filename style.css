@@ -57,7 +57,7 @@ navbar-toggler-icon {
 
 /*CArds*/
 .card {
-    background-color: #444477 !important;                           /*  Tettem új BGcolort ehelyett:  background-color: #82216e !important;*/
+    background-color: #444477;                           /*  Tettem új BGcolort ehelyett:  background-color: #82216e !important;*/
     opacity: 0.9;
 }
 
@@ -65,6 +65,14 @@ navbar-toggler-icon {
     flex-direction: row;
 }
 
+div.card.oszlop {
+    background: none;
+}
+
+div.card-body.border {
+    background-color: #444477;
+    border: none;
+}
 
 .deres {                                                            /* Nemtudom milyen lesz  csak ideraktam nézzétek meg */
     padding: 20px;
@@ -113,12 +121,24 @@ navbar-toggler-icon {
     display: flex;
 }
 
-/* .flexcontainer {
-  
-} */
+.flexcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  align-content: space-around;
+  margin: 0% 15% 0% 15%;  
+} 
 
 .border {
-    border: solid;
+    margin: 1% 0 1% 0;
+}
+
+div#háttér.card-body.border {
+    margin-left: 15px;
+}
+
+div.card-body.border{
+    border: none !important;
 }
 
 .pics {
@@ -169,6 +189,12 @@ a:hover {
         max-width: 150px;
         text-align: center;
         align-self: center;
+    }
+    .oszlop {
+        flex-direction: column;
+    }
+    div#háttér.card-body.border {
+        margin-left: 0;
     }
 }
 
