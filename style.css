@@ -74,6 +74,10 @@ div.card-body.border {
     border: none;
 }
 
+div.card-body.border.border1 {
+    margin-left: 1%;
+}
+
 .deres {                                                            /* Nemtudom milyen lesz  csak ideraktam nézzétek meg */
     padding: 20px;
     margin: 0px 20px 0px 20px;
@@ -194,6 +198,9 @@ a:hover {
         flex-direction: column;
     }
     div#háttér.card-body.border {
+        margin-left: 0;
+    }
+    div.card-body.border.border1 {
         margin-left: 0;
     }
 }
