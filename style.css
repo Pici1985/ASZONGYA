@@ -123,6 +123,7 @@ div.card-body.border.border1 {
 
 .ThreeCardsBox {
     display: flex;
+
 }
 
 .flexcontainer {
@@ -209,6 +210,10 @@ a:hover {
     .ThreeCardsBox {
         width: 100%;
         display: flex;
+        flex-direction: column;
+    }
+
+    .oszlop {
         flex-direction: column;
     }
 

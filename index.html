@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="">
     <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+    <link href="aos/dist/aos.css" rel="stylesheet">
     <!---- Valami baj van kóddal valami nem stimmel. szerkezetileg valahol egy taggel több van--->
 </head>
 
@@ -75,8 +76,9 @@
             
         </div>
     </div>
-    <div>
-        <div class="ThreeCardsBox">
+    <div class="card oszlop">
+      <div>
+        <div class="ThreeCardsBox card-body border">
             <div class="card-body">
                 <iframe width="" height="" src="https://www.youtube.com/embed/TmRngq83NFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
@@ -87,9 +89,9 @@
                 <iframe width="" height="" src="https://www.youtube.com/embed/H16l5U0PUJQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
+      </div>
+      <div class="card">
+        <div class="card-body border">
             <article>
                 <h3 class="text-left" >Deres zenekar biográfia</h3>
                <p class="bio">The First looooove is: The bee's knees (2019) Demo</p>
@@ -103,6 +105,7 @@
 
             </article>
         </div>
+    </div>
     </div>
     <div class="card oszlop">  <!-- oszlop arra írtam h egymás mellett legyen a képek és a időpontok így tudtam megoldani-->
         <div class="card-body border">
@@ -174,6 +177,10 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 
     <script src="js/bootstrap.bundle.js"></script>
+    <script src="aos/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <!--   <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/bootstrap.bundle.js.map"></script>
     <script src="js/bootstrap.bundle.min.js.map"></script>
