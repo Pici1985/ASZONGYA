@@ -11,6 +11,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    margin: 0% 15% 0% 15%;
 }
 
 ul {
@@ -78,11 +79,16 @@ div.card-body.border.border1 {
     margin-left: 1%;
 }
 
+.bg-dark {
+    opacity: 0.6;
+}
+
 .deres {                                                            /* Nemtudom milyen lesz  csak ideraktam nézzétek meg */
     padding: 20px;
     margin: 0px 20px 0px 20px;
     width: 50%;
     height: 20%;
+    opacity: none;
 }
 
 #deresc {                                                                   /*  Tettem új BGcolort ehelyett: !important;*/
@@ -90,7 +96,7 @@ div.card-body.border.border1 {
     flex-direction: row;
     justify-content: center;
     background-color: black !important;
-    opacity: 0.9;
+    opacity: 0.6;
 }
 
 
